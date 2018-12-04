@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/transaction-springcloud-sy/transaction-springcloud-sy.iml" filepath="$PROJECT_DIR$/transaction-springcloud-sy/transaction-springcloud-sy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tx-client-sy/tx-client-sy.iml" filepath="$PROJECT_DIR$/tx-client-sy/tx-client-sy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tx-lcn-sy.iml" filepath="$PROJECT_DIR$/tx-lcn-sy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tx-manager-sy/tx-manager-sy.iml" filepath="$PROJECT_DIR$/tx-manager-sy/tx-manager-sy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tx-plugins-db-sy/tx-plugins-db-sy.iml" filepath="$PROJECT_DIR$/tx-plugins-db-sy/tx-plugins-db-sy.iml" />
+    </modules>
+  </component>
+</project>
