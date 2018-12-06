@@ -23,12 +23,12 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
       </profile>
-      <profile default="false" name="Annotation profile for transaction-springcloud-sy" enabled="true">
+      <profile default="false" name="Annotation profile for tx-client-sy" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="transaction-springcloud-sy" />
+        <module name="tx-client-sy" />
       </profile>
       <profile default="false" name="Annotation profile for tx-plugins-db-sy" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -37,12 +37,12 @@
         <processorPath useClasspath="true" />
         <module name="tx-plugins-db-sy" />
       </profile>
-      <profile default="false" name="Annotation profile for tx-client-sy" enabled="true">
+      <profile default="false" name="Annotation profile for transaction-springcloud-sy" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="tx-client-sy" />
+        <module name="transaction-springcloud-sy" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
