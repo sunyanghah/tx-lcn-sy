@@ -10,9 +10,37 @@
 
     <name>tx-lcn-sy</name>
 
+    <parent>
+        <groupId>org.sonatype.oss</groupId>
+        <artifactId>oss-parent</artifactId>
+        <version>7</version>
+    </parent>
+
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <scm>
+        <tag>master</tag>
+        <url>https://github.com/sunyanghah/tx-lcn-sy</url>
+        <connection>scm:git:https://github.com/sunyanghah/tx-lcn-sy.git</connection>
+        <developerConnection>scm:git:https://github.com/sunyanghah/tx-lcn-sy.git</developerConnection>
+    </scm>
+
+    <developers>
+        <developer>
+            <name>sunyang</name>
+            <email>yang.sun@85ido.com</email>
+            <organization>CloudNil</organization>
+        </developer>
+    </developers>
+
+
     <modules>
         <module>tx-client-sy</module>
-        <module>tx-manager-sy</module>
 
         <module>transaction-springcloud-sy</module>
 
@@ -30,6 +58,8 @@
 
         <lcn.last.version>4.2.0-SNAPSHOT</lcn.last.version>
     </properties>
+
+
 
     <build>
         <plugins>

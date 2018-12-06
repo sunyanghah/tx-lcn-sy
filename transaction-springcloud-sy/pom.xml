@@ -27,8 +27,8 @@
 	<dependencies>
 
 		<dependency>
-			<groupId>com.codingapi</groupId>
-			<artifactId>tx-client</artifactId>
+			<groupId>com.codingapi.sy</groupId>
+			<artifactId>tx-client-sy</artifactId>
 			<version>${lcn.last.version}</version>
 		</dependency>
 
