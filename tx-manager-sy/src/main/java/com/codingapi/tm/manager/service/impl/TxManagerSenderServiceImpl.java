@@ -83,7 +83,7 @@ public class TxManagerSenderServiceImpl implements TxManagerSenderService {
     /**
      * 匹配管道
      *
-     * @param list
+     * @param list info
      */
     private void setChannel(List<TxInfo> list) {
         for (TxInfo info : list) {
@@ -109,8 +109,8 @@ public class TxManagerSenderServiceImpl implements TxManagerSenderService {
 
     /**
      * 事务提交或回归
-     *
-     * @param checkSate
+     * @param txGroup info
+     * @param checkSate info
      */
     private boolean transaction(final TxGroup txGroup, final int checkSate) {
 

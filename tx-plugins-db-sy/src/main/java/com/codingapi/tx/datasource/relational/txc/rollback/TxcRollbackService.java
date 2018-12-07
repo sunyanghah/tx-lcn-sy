@@ -5,14 +5,14 @@ import com.codingapi.tx.datasource.relational.txc.parser.CommitInfo;
 
 /**
  * @author jsy.
- * @title
- * @time 17/12/22.
+ *
+ *  17/12/22.
  */
 public interface TxcRollbackService {
 
 
     /**执行回滚
-     * @param commitInfo
+     * @param commitInfo info
      */
     void rollback(CommitInfo commitInfo);
 }

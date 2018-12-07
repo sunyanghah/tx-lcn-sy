@@ -5,7 +5,7 @@
 
     <groupId>com.github.sunyanghah</groupId>
     <artifactId>tx-lcn-sy</artifactId>
-    <version>4.2.2</version>
+    <version>4.2.3</version>
     <packaging>pom</packaging>
 
     <name>tx-lcn-sy</name>
@@ -56,7 +56,7 @@
         <java.version>1.8</java.version>
         <maven-compiler-plugin.version>3.6.0</maven-compiler-plugin.version>
 
-        <lcn.last.version>4.2.2</lcn.last.version>
+        <lcn.last.version>4.2.3</lcn.last.version>
     </properties>
 
 

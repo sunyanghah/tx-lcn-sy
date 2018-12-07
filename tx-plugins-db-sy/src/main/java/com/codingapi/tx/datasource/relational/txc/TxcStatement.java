@@ -15,8 +15,7 @@ import java.sql.Statement;
  * [类描述]
  *
  * @author caican
- * @date 17/11/28
- * @title [confluence页面的title]
+ *  [confluence页面的title]
  */
 public class TxcStatement implements ITxcStatement {
 

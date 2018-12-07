@@ -7,7 +7,6 @@ import java.util.Map;
  * [表描述]
  *
  * @author caican
- * @date 17/12/23
  */
 public class TableMetaInfo {
     /**
@@ -33,7 +32,7 @@ public class TableMetaInfo {
     }
 
     /**
-     * @param name
+     * @param name this is name
      * @return
      */
     public ColumnInfo getColumnByName(String name) {

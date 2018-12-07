@@ -13,8 +13,8 @@ import java.util.List;
 
 /**
  * @author jsy.
- * @title
- * @time 17/12/11.
+ *
+ *  17/12/11.
  */
 public class UpdateParser extends AbstractParser<SQLUpdateStatement> {
     private static final Logger logger = LoggerFactory.getLogger(UpdateParser.class);
